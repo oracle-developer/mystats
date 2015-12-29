@@ -15,15 +15,17 @@ This version is a standalone SQL*Plus script that runs MyStats from your SQLPATH
 ## 3.0 Version History
 ```
 Version  Date            Description
--------- --------------- --------------------------------------------
+-------- --------------- ----------------------------------------------
 1.0      June 2007       Original version
 1.1      January 2009    Added extended reporting options
 2.0      October 2011    Re-design for standalone script version
 2.01     November 2011   Bug-fix for numeric overflow
+3.0      November 2015   Added extended snapshot and reporting options
 ```
 
 ## 4.0 Credits
-Credit is given to Jonathan Lewis for his original idea of taking two snapshots to identify resource consumption.
+1. Credit is given to Jonathan Lewis for his original idea of taking two snapshots to identify resource consumption.
+2. Thanks to Martin Bach for suggesting (and providing a prototype) for extended snapshot and reporting options.
 
 ## 5.0 Disclaimer
 See http://www.oracle-developer.net/disclaimer.php
