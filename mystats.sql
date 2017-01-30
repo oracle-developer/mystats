@@ -169,8 +169,8 @@ column if_start noprint new_value v_ms_if_start
 column if_stop  noprint new_value v_ms_if_stop
 
 select snap
-,      decode(snap, 'start', '', '--') as if_start
-,      decode(snap, 'stop', '', '--')  as if_stop
+,      decode(snap, 'start', ' ', '--') as if_start
+,      decode(snap, 'stop', ' ', '--')  as if_stop
 from  (
          select rtrim(lower('&p_ms_snap'),';') as snap
          from   dual
