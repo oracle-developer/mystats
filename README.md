@@ -27,8 +27,9 @@ Version  Date            Description
 1. Credit is given to Jonathan Lewis for his original idea of taking two snapshots to identify resource consumption.
 2. Thanks to Martin Bach for suggesting (and providing a prototype) for extended snapshot and reporting options.
 
-## 5.0 Disclaimer
-See http://www.oracle-developer.net/disclaimer.php
+## 5.0 License
+This project uses the MIT License.
+See https://github.com/oracle-developer/mystats/blob/master/LICENSE
 
 Adrian Billington
 (c) www.oracle-developer.net
